@@ -71,6 +71,3 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-contentblocks
-
-BUNDLED WITH
-   1.10.6
