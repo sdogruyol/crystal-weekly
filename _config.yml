@@ -1,9 +1,7 @@
-# Site settings
 title: Crystal Weekly
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: ""
 
-# Build settings
 markdown: kramdown
-exclude:
- - "Gemfile"
- - "Gemfile.lock"
+
+sass:
+  style: compressed
