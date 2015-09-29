@@ -1,30 +1,52 @@
 ---
 layout: default
 ---
-{% contentfor head %}
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css" />
-{% endcontentfor %}
 
-<div class="home">
-  <!-- Begin MailChimp Signup Form -->
-  <h2>A weekly newsletter about Crystal Programming Language.</h2>
+<div class="cw-container">
+  <div class="cw-logo">
+    <img src="/img/cw-logo.png" alt="">
+  </div>
+  <div class="cw-height-40"></div>
   <div id="mc_embed_signup">
-    <form action="//serdardogruyol.us11.list-manage.com/subscribe/post?u=d644228761eb9a81e877365cc&amp;id=764dae5f03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="//serdardogruyol.us11.list-manage.com/subscribe/post?u=d644228761eb9a81e877365cc&amp;id=764dae5f03" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-        <label for="mce-EMAIL">Subscribe to Crystal Weekly</label>
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;"><input type="text" name="b_d644228761eb9a81e877365cc_764dae5f03" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+        <label for="mce-EMAIL" class="cw-font-18">A weekly newsletter about <b>Crystal Programming Language.</b></label>
+        <div class="cw-height-16"></div>
+        <div class="wrap">
+          <div class="col xl-8-12">
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="cw-input-text" placeholder="Email Address" required />
+          </div>
+          <div class="col xl-4-12">
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_d644228761eb9a81e877365cc_764dae5f03" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" class="cw-input-button" id="mc-embedded-subscribe" />
+          </div>
+        </div>
       </div>
     </form>
   </div>
-
-  <div id="rss_subscribe">
-    &hellip; or subscribe to <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">RSS/Atom feed</a>
+  <div class="cw-height-16"></div>
+  <div class="cw-font-18">
+    You can read the latest issue from <a href="http://eepurl.com/bAx8tv" class="cw-link" target="_blank">here.</a>
   </div>
-  <hr>
-  <div id="latest_issues">
-    You can read the latest issue from <a href="http://eepurl.com/bAx8tv">here</a>
+  <div class="cw-height-40"></div>
+  <div class="cw-white-background">
+    <div class="cw-font-24">About</div>
+    <div class="cw-height-16"></div>
+    Crystal Weekly is a weekly newsletter about <a href="http://crystal-lang.org" class="cw-link" target="_blank">Crystal</a> Programming Language.
+    <div class="cw-height-16"></div>
+    Curated by <a href="https://twitter.com/sdogruyol" class="cw-link" target="_blank">Serdar Doğruyol</a> Crystal Weekly aims to bring the resources,
+    blog posts, community events and anything Crystal to your inboxes.
+    <div class="cw-height-16"></div>
+    The source code of this site is hosted on <a href="https://github.com/sdogruyol/crystal-weekly" class="cw-link" target="_blank">Github</a> and you
+    can contribute to it.
+  </div>
+  <div class="cw-height-40"></div>
+  <div class="wrap xl-auto xl-center xl-gutter-24">
+    <div class="col">
+      <a href="https://github.com/sdogruyol/crystal-weekly" class="cw-link" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
+    </div>
+    <div class="col">
+      <a href="https://twitter.com/sdogruyol" class="cw-link" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    </div>
   </div>
 </div>
