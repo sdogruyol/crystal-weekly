@@ -69,4 +69,4 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 BUNDLED WITH
-   2.2.3
+  4.0.10
