@@ -138,3 +138,35 @@ ul {
   line-height: 60px;
   height: 60px;
 }
+
+// Beehiiv embed: same horizontal bounds as .cw-container content, no extra chrome
+.cw-subscribe {
+  form {
+    margin: 0;
+  }
+  #mc_embed_signup_scroll {
+    margin: 0;
+  }
+}
+
+.cw-subscribe__embed {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  iframe.beehiiv-embed {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    min-height: 207px;
+    height: 207px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    vertical-align: top;
+  }
+}
